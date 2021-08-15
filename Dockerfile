@@ -1,4 +1,4 @@
-FROM php:7.4.16-apache
+FROM php:7.4.21-apache
 # hadolint ignore=DL3008
 RUN     apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
         libfreetype6-dev \
